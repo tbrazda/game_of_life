@@ -1,0 +1,57 @@
+
+  /\  /\___| |_ __
+ / /_/ / _ \ | '_ \
+/ __  /  __/ | |_) |
+\/ /_/ \___|_| .__/
+             |_|
+
+Within the Main Menu, there are three sub-menus.
+Below,these menus and their command options are explained in more detail.
+
+[n]ext:
+	[n]ext generation:
+	    Moves forward one generation. This can also be done by hitting [Enter] from either menu.
+	[m]ultiple generations:
+	    Displays x number of generations (x = number input by user).
+	[s]kip:
+	    Skips forward x number of generations and displays final generation created (x = number input by user).
+[p]revious:
+	[p]revious generation:
+	    Moves backwards one generation.
+	[b]ack x generations:
+	    Like [m]ultiple generations under [n]ext, except goes back x generations instead of forwards.
+	[s]kip back x generations:
+	    Like [s]kip under [n]ext, except skips backwards x generations instead of forwards.
+[e]dit world:
+	Change [w]orld size:
+	    Allows the user to enter the number of rows and columns.
+	    Larger worlds will take longer to be created.
+	Change [p]opulation rate:
+	    Allows the user to change the initial percent of living cells in the world.
+	    This will start over the world’s generation count, as it creates an entirely new world of cells with the same
+	    dimentions.
+	Change simulation [s]peed:
+	    Allows the user to change the speed of displaying generations.
+	    The speed of generations being made (specifically in [m]ultiple generations and [b]ack x generations)
+	    will either be faster or slower depending on the number the user inputs.
+	    The lower the number, the faster the simulation. It’s recommended you use a decimal such as ’0.5’ or ’0.3’.
+
+
+
+There are other commands in the Main Menu along these three sub-menus: [o]pen, [s]ave, and [q]uit.
+
+[o]pen world:
+   Opens a saved world so the user can see different patterns aside from randomly generated ones.
+   A list of saved files will be displayed to select from.
+[s]ave world:
+    Saves the current world in an editable file. All world files will end file name with ‘.life’.
+[q]uit:
+    Ends the program. To start the program up again, hit the play button in the top left corner.
+
+
+
+Other information:
+    A majority of the time it will ask you to enter an integer or number multiple times.
+    There is no known cause for this. Sorry if this is an inconvenience to you.
+    To continue, simply enter the number a second time and it should work. You do not need to enter another [Enter]
+    before you input the value.
